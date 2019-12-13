@@ -8,8 +8,7 @@ def hello(array)
   a << yield(array[i])
     i += 1
   end
-  puts a.length
-  puts a
+  a
 end
 
 
