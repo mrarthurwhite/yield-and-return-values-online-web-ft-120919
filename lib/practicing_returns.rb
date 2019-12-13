@@ -7,7 +7,7 @@ def hello(array)
   array << yield(array[i])
     i += 1
   end
-  puts "array.length"
+  puts array.length
 end
 
 
