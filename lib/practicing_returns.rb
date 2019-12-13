@@ -8,6 +8,7 @@ def hello(array)
     i += 1
   end
   puts array.length
+  puts array
 end
 
 
